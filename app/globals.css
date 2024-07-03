@@ -25,3 +25,8 @@ body {
     text-wrap: balance;
   }
 }
+
+#chatbox a {
+  color: #0842a0;
+  font-weight: bold;
+}
