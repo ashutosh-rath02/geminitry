@@ -1,3 +1,4 @@
+"use client";
 import { useChat } from "ai/react";
 import { Send } from "lucide-react";
 import React from "react";
@@ -33,7 +34,6 @@ const RenderForm = () => {
           <Send className="p-2.5 h-10 w-10   stroke-stone" color="black" />
         </button>
       </form>
-      <Send />
     </div>
   );
 };
